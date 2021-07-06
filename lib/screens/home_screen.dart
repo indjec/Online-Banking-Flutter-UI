@@ -39,6 +39,7 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       body: SingleChildScrollView(
+        physics: ClampingScrollPhysics(),
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
@@ -47,6 +48,7 @@ class HomeScreen extends StatelessWidget {
               Container(
                 height: 200,
                 child: ListView.separated(
+                    physics: ClampingScrollPhysics(),
                     separatorBuilder: (context, index) {
                       return SizedBox(
                         width: 10,

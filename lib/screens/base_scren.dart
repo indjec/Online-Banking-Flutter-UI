@@ -30,7 +30,7 @@ class _BaseScreenState extends State<BaseScreen> {
       bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           selectedItemColor: kPrimaryColor,
-          unselectedItemColor: Color(0xffFFAFA3),
+          unselectedItemColor: Colors.grey,
           items: [
             BottomNavigationBarItem(
               icon: Icon(

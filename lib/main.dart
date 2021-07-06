@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        scaffoldBackgroundColor: kBackgroundColor,
+        scaffoldBackgroundColor: Colors.white,
         fontFamily: "Poppins",
         appBarTheme: AppBarTheme(
-          backgroundColor: kBackgroundColor,
+          backgroundColor: Colors.white,
           elevation: 0,
         ),
         primarySwatch: Colors.blue,
